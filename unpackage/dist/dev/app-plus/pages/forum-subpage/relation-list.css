@@ -1,0 +1,202 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top-nav-bar-box[data-v-ef27e09d] {
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.top-nav-bar-box .content[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+}
+.top-nav-bar-box .content .back-btn[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.top-nav-bar-box .content .title-txt[data-v-ef27e09d] {
+  flex-grow: 1;
+  text-align: center;
+}
+.top-nav-bar-box .content .title-txt uni-text[data-v-ef27e09d] {
+  font-size: 18px;
+}
+.top-nav-bar-box .content .list-btn[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.space-box[data-v-ef27e09d] {
+  height: 75px;
+}
+
+.search-box[data-v-ea82f5cf]{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+}
+.search-bar-box[data-v-ea82f5cf]{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background: #fff;
+		height: 30px;
+		width: 80%;
+		border-radius: 20px;
+		padding: 10px;
+		margin: 20px;
+		box-shadow: 2px 3px 5px 3px rgba(240,240,255,0.7);
+}
+.search-bar[data-v-ea82f5cf]{
+		display: flex;
+}
+.search-input[data-v-ea82f5cf]{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 90%;
+}
+#search-txt[data-v-ea82f5cf]{
+		font-size: 16px;
+}
+#search-btn[data-v-ea82f5cf]{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 30px;
+		height: 30px;
+		border-radius: 100%;
+		background: linear-gradient(to bottom,#ff9c39,#ff6a39);
+		box-shadow: 2px 2px 5px 1px rgba(255, 146, 57, 0.5);
+}
+
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.selection-tab-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selection-tab-box .selection-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.selection-tab-box .selection-tab .num {
+  font-size: 16px;
+  font-weight: bold;
+}
+.selection-tab-box .selection-tab .txt {
+  font-size: 14px;
+}
+.selection-tab-box .selection-tab .selected-mark {
+  margin-top: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: #8888ff;
+}
+.selection .list {
+  margin: 20px;
+}
+.selection .list .item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.selection .list .item .avatar-box {
+  width: 50px;
+  height: 50px;
+}
+.selection .list .item .avatar-box uni-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.selection .list .item .txt-box {
+  margin: 0 10px;
+  flex-grow: 1;
+}
+.selection .list .item .txt-box .nickname {
+  font-size: 14px;
+}
+.selection .list .item .txt-box .info {
+  font-size: 13px;
+  color: #888;
+}
+.selection .list .item .btn-box-1 {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.selection .list .item .btn-box-2 {
+  background: linear-gradient(to bottom, #6757bf, #6737bf);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+}

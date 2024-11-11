@@ -1,0 +1,219 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top-nav-bar-box[data-v-ef27e09d] {
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.top-nav-bar-box .content[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+}
+.top-nav-bar-box .content .back-btn[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.top-nav-bar-box .content .title-txt[data-v-ef27e09d] {
+  flex-grow: 1;
+  text-align: center;
+}
+.top-nav-bar-box .content .title-txt uni-text[data-v-ef27e09d] {
+  font-size: 18px;
+}
+.top-nav-bar-box .content .list-btn[data-v-ef27e09d] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.space-box[data-v-ef27e09d] {
+  height: 75px;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.video-box uni-video {
+  width: 100%;
+}
+.box-1 {
+  margin: 20px;
+}
+.box-1 .box-1-1 {
+  display: flex;
+}
+.box-1 .box-1-1 .title {
+  flex-grow: 1;
+  font-size: 18px;
+}
+.box-1 .box-1-1 .cost {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6a39;
+}
+.box-1 .box-1-2 {
+  display: flex;
+  margin-top: 5px;
+}
+.box-1 .box-1-2 .attribute-box {
+  display: flex;
+  flex-grow: 1;
+}
+.box-1 .box-1-2 .attribute-box .attribute {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.box-1 .box-1-2 .add-box {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.box-1 .box-1-2 .add-box .toggle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background-color: #ff6a39;
+}
+.box-1 .box-1-2 .add-box .toggle-box uni-image {
+  width: 70%;
+  height: 70%;
+}
+.box-1 .box-1-3 {
+  margin-top: 5px;
+}
+.box-1 .box-1-3 .time {
+  font-size: 12px;
+}
+.box-1 .box-1-3 .introduction {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.box-1 .box-1-3 .buy-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-1 .box-1-3 .buy-btn-box .buy-btn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(to bottom, #ff9c39, #ff6a39);
+  box-shadow: 2px 2px 5px 1px rgba(255, 146, 57, 0.5);
+  border-radius: 10px;
+}
+.box-1 .box-1-3 .buy-btn-box .buy-btn uni-text {
+  font-size: 16px;
+  color: #fff;
+}
+.box-2 {
+  margin: 0 20px;
+}
+.box-2 .selection-bar {
+  display: flex;
+  align-items: center;
+}
+.box-2 .selection-bar .selection {
+  padding: 0 20px;
+}
+.box-2 .selection-bar .selection .txt {
+  font-size: 14px;
+  color: #9900ff;
+  padding: 2px;
+}
+.box-2 .selection-bar .selection .selected-mark {
+  width: 100%;
+  height: 2px;
+  background-color: #ff6a39;
+}
+.box-2 .selection-1 .lesson {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.box-2 .selection-1 .lesson .img {
+  width: 100px;
+  height: 80px;
+}
+.box-2 .selection-1 .lesson .img uni-image {
+  width: 100%;
+  height: 100%;
+}
+.box-2 .selection-1 .lesson .title {
+  margin-left: 20px;
+  font-size: 14px;
+  flex-grow: 1;
+}
+.box-2 .selection-1 .lesson .icon {
+  width: 12px;
+  height: 15px;
+}
+.box-2 .selection-1 .lesson .icon uni-image {
+  width: 100%;
+  height: 100%;
+}
